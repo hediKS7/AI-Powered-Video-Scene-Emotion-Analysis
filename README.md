@@ -1,7 +1,7 @@
 # 🎬 AI-Powered Video Scene & Emotion Analysis
 
 This project delivers an **end-to-end interactive pipeline** for video understanding, combining **scene segmentation, multimodal emotion analysis, and intelligent retrieval**.  
-It was developed during a 1-month internship as a proof-of-concept system .
+It was developed during a 2-month internship as a proof-of-concept system .
 
 ---
 
