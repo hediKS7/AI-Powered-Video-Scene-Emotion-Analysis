@@ -1,9 +1,30 @@
-# 🎬 AI-Powered Video Scene & Emotion Analysis  
+# 🎬 AI-Powered Video Scene & Emotion Analysis
 
-## 📌 Overview  
-This project was developed during my internship at **Visatsy** in collaboration with the **École Polytechnique de Tunisie**.  
-It focuses on building an **AI-powered video analysis system** that performs **scene segmentation, visual understanding, and emotion recognition**.  
-The final goal is to enable intelligent **video recommendation, mental health analysis, and advanced emotion-aware retrieval systems**.  
+This project delivers an **end-to-end interactive pipeline** for video understanding, combining **scene segmentation, multimodal emotion analysis, and intelligent retrieval**.  
+It was developed during a 1-month internship as a proof-of-concept system .
+
+---
+
+## 🚀 Features
+
+- **Video Upload & Processing**
+  - Shot boundary detection and scene segmentation
+  - Keyframe extraction and scene-level metadata generation  
+
+- **Multimodal Feature Extraction**
+  - Object detection (YOLOv8)  
+  - Face & character presence analysis (DeepFace, heuristics approach)  
+  - Voice emotion detection 
+  - Automatic scene captioning (BLIP/BLIP-2)  
+
+- **Results Visualization**
+  - Interactive **scene cards**   
+  - Summary tables and descriptive reports  
+
+- **Intelligent Retrieval**
+  - **RAG-based semantic search engine** powered by embeddings  
+  - Natural language queries on video scenes  
+  - Context-aware scene recommendations  
 
 ---
 
@@ -18,21 +39,13 @@ The final goal is to enable intelligent **video recommendation, mental health an
 
 ---
 
-## 🔧 Use Cases  
-1. **🎥 Recommendation Systems** – Suggest videos or clips based on detected themes, moods, or objects.  
-2. **🧠 Mental Health Analysis** – Identify emotional states (stress, depression, anxiety, etc.) from video interactions.  
-3. **😊 Emotion Analysis** – Track characters’ emotional evolution across a film, series, or recorded session.  
-
----
-
 ## 🛠️ Tech Stack  
 - **Scene Captioning:** BLIP / BLIP-2  
 - **Object Detection:** YOLOv8
-- **Face Detection & Emotion:** DeepFace + MediaPipe heuristics  
+- **Face Detection & Emotion:** DeepFace + MediaPipe heuristics
+- **Voice Emotion Dectecion:** ML Classifier Based on Feature Extraction
 - **Scene-Level Labeling:** Gemini LLMs (RAG pipeline)  
 - **Vector Search:** ChromaDB   
-- **Frontend:** Gradio  
-
 
 
 ---
