@@ -46,8 +46,3 @@ It was developed during a 2-month internship as a proof-of-concept system .
 - **Voice Emotion Dectecion:** ML Classifier Based on Feature Extraction
 - **Scene-Level Labeling:** Gemini LLMs (RAG pipeline)  
 - **Vector Search:** ChromaDB   
-
-
----
-
-## 📂 Project Structure  
