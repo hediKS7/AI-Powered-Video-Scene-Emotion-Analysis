@@ -4,7 +4,6 @@ from tqdm import tqdm
 
 class AudioTranscriber:
     def __init__(self):
-        """Initialize with Hugging Face pipeline for better compatibility"""
         try:
             self.pipe = pipeline(
                 "automatic-speech-recognition",
@@ -39,4 +38,5 @@ class AudioTranscriber:
                 transcripts.append("transcription error")
 
         scenes_df['transcript'] = transcripts
+
         return scenes_df
